@@ -1,0 +1,14 @@
+{
+  "name": "insumos-consumidos-club-lagos-de-caujaral",
+  "version": "1.0.0",
+  "description": "Cruza ventas facturadas contra el libro de recetas del Club Lagos de Caujaral para calcular insumos consumidos, costo y %CMV. Pagina estatica de un solo archivo, sin dependencias.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
