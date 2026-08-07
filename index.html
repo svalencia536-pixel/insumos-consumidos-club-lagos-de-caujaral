@@ -65,6 +65,12 @@
     font-size:.68rem; letter-spacing:.11em; text-transform:uppercase; color:var(--accent);
     font-weight:700; margin-bottom:6px; display:block;
   }
+  .author-card{
+    font-size:.76rem; background:var(--surface-2); border-radius:8px; padding:10px 14px;
+    flex-shrink:0; text-align:right;
+  }
+  .author-card .name{ display:block; font-weight:700; color:var(--text); margin-bottom:2px; font-size:.8rem; }
+  .author-card .role{ display:block; color:var(--text-faint); font-size:.72rem; line-height:1.4; }
   .status-chip{
     font-size:.76rem; color:var(--text-dim); background:var(--surface-2);
     border:1px solid var(--border); border-radius:999px; padding:6px 12px;
@@ -246,6 +252,10 @@
       <p>Cruza la venta facturada contra el libro de recetas para calcular cuánta materia prima real se consumió, a qué costo y en qué centro.</p>
     </div>
     <div id="dataStatus" class="status-chip"><span class="status-dot"></span><span id="dataStatusText">Sin ventas cargadas</span></div>
+    <div class="author-card">
+      <span class="name">Sergio Valencia</span>
+      <span class="role">Especialista en control, auditoría operativa y rentabilidad para empresas de alimentos y bebidas</span>
+    </div>
   </header>
 
   <details class="howto">
@@ -349,10 +359,6 @@
 
   <footer class="foot">
     Club Lagos de Caujaral · Costos A&amp;B — ver "Cómo se usa" arriba para el detalle del cruce y los filtros.
-    <div class="signature">
-      <span class="signature-name">Sergio Valencia</span>
-      <span class="signature-role">Especialista en control, auditoría operativa y rentabilidad para empresas de alimentos y bebidas</span>
-    </div>
   </footer>
 </div>
 
